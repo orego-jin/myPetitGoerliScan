@@ -3,31 +3,23 @@ require('dotenv').config();
 
 //dotenv does not work on the browser!! works for node.js
 //to run in browser - enter api keys for each provider below - infura & etherscan
-// const network = process.env.ETHEREUM_NETWORK;
 
 // HTML elements
 const blockNumber = document.querySelector("#latest");
 const timeStamp = document.querySelector("#timestamp");
-const formBox = document.querySelector('#formBox');
 const txSection = document.querySelector('#tx');
 const form = document.querySelector('form');
 const input = document.querySelector('input');
-const button = document.querySelector('button');
-
-const addressInfo = document.createElement('div');
-addressInfo.classList.add('flex-box');
 
 //Providers
 const provider = new providers.InfuraProvider(
   'goerli',
   // process.env.INFURA_API_KEY
-  ''
 );
 
 const etherscanProvider = new providers.EtherscanProvider(
   'goerli',
   // process.env.ETHERSCAN_API_KEY
-  ''
 );
 
 //Main Function
@@ -81,7 +73,7 @@ async function main(){
       let title = document.createElement('div');
       title.classList.add('flex-box');
       title.classList.add('wallet-title');
-      title.innerText = `Latest Transaction of the wallet`
+      title.innerText = `Latest Transaction of the Wallet`
       txSection.appendChild(title);
 
       let attributes = ['hash', 'blockNumber', 'timeStamp', 'from', 'to', 'value'];
