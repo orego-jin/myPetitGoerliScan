@@ -1,5 +1,5 @@
 # myPetitGoerliScan
-Simple Ethereum - Goerli network scanner. 
+Simple Ethereum - Goerli network scanner. </br>
 It only shows the latest block number and its timestamp, and the latest transaction details of the provided wallet.
 
 
@@ -9,5 +9,5 @@ It only shows the latest block number and its timestamp, and the latest transact
 <img width="1438" alt="Screen Shot 2022-11-05 at 3 06 13 AM" src="https://user-images.githubusercontent.com/60831538/200108542-46392408-e3f0-430f-a549-711dd81dfb8f.png">
 
 ## Dependencies
-ethers.js
+ethers.js </br>
 parceljs
