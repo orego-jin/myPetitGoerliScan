@@ -1,0 +1,8 @@
+# API keys for node.js
+.env
+
+#test file
+test.js
+
+#dist
+/dist

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+  <title>MyEtherScan</title>
+</head>
+<body>
+  <section id="title">
+    <h1>
+      My Petit Goerli-scan
+    </h1>
+  </section>
+
+  <section id="block">
+    <div class="flex-box">
+      <div>Latest block number</div>
+      <div id="latest">###</div>
+    </div>
+
+    <div class="flex-box">
+      <div>Timestamp</div>
+      <div id="timestamp">###</div>
+    </div>
+  </section>
+
+  <section id="wallet">
+    <div class="flex-box">
+      <div>Enter your wallet address.</div>
+      <div id="formBox">
+        <form action="submit" method="">
+          <input type="text" placeholder="ethereum wallet address" size="35">
+          <button type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <section id="tx"></section>
+</body>
+</html>

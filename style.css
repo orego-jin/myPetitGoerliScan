@@ -1,0 +1,60 @@
+/* reset default styles */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
+} 
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/*  */
+
+#title{
+text-align: center;
+padding: 3rem;
+background-color: orange;
+
+}
+
+#block{
+ background-color: peachpuff;
+}
+
+#tx, #wallet{
+background-color: oldlace;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.flex-box > div{
+  width: 50%;
+}
+
+.wallet-title{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#tx > div{
+  border: 1px solid orange;
+}
