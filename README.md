@@ -1,6 +1,6 @@
-# myPetitGoerliScan
+# My Petit Goerli-scan
 Simple Ethereum - Goerli network scanner. </br>
-It only shows the latest block number and its timestamp, and the latest transaction details of the provided wallet.
+It only shows the latest block number and its timestamp, and the latest transaction details of the provided wallet. 
 
 
 ## Demos
